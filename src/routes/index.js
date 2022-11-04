@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { AdminLogin, Dashboard, ErrorPage } from '../pages'
+import { Address, AdminLogin, Dashboard, ErrorPage, Order } from '../pages'
 
 const WebRoutes = () => {
   return (
@@ -9,6 +9,8 @@ const WebRoutes = () => {
 
             <Route index element={<AdminLogin />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/order" element={<Order />} />
+            <Route path="/address" element={<Address />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>
     </BrowserRouter>

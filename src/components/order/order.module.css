@@ -1,0 +1,39 @@
+section.Main_wrap {
+    padding: 50px 0;
+}
+
+
+section.Main_wrap .inner_Content h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section.Main_wrap .inner_Content h1 svg{
+    color: #807957;;
+    padding-right: 10px;
+    font-size: 37px;
+}
+
+
+section.Main_wrap .inner_Content h5{
+    font-size: 17px;
+    padding: 10px 0 0;
+}
+
+
+button.cancel_button{
+    background: none;
+    border: none;
+    outline: none;
+    color: red;
+}
+
+section.Main_wrap  a.view_order{
+    color: #000;
+    font-weight: 500;
+}

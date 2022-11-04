@@ -13,25 +13,30 @@
 
 .sidebar_menu_links ul{
     list-style: none;
-    padding: 30px;
+    padding: 30px 15px
 
 }
 .sidebar_menu_links ul li{
     margin: 10px 0 15px;
-  
 }
+
+
+
+
+
 .sidebar_menu_links ul li a{
+    border: 1px solid;
     text-decoration: none;
-    font: normal normal 500 20px/36px Josefin Sans;
+    background-color: #fff;
+    transition: 0.5s;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 17px;
     color: rgb(0, 0, 0);
     display: flex;
     transition: 0.5s;
     justify-content: space-between;
     align-items: center;
-}
-
-.sidebar_menu_links ul li:hover a{
-    color: #807957;
 }
 
 .sidebar_menu_links ul li a i{

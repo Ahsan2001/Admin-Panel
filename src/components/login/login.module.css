@@ -1,0 +1,75 @@
+.Login_Main_Wrap{
+    background: url(../../assets/images/login/register.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.Login_Main_Wrap h2{
+    text-align: center;
+    font: normal normal normal 55px/74px Playfair Display!important;
+    letter-spacing: 0;
+    color: #7a7554!important;
+    margin-bottom: 20px;
+}
+
+.form_main_wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.form_group{
+    position: relative;
+    margin: 0 0 20px
+}
+
+.form_group input{
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 3px;
+    background: #7a755491;
+    border: 1px solid;
+}
+
+
+.form_group input:focus,
+.form_group input:focus-visible,
+.form_group input:hover {
+    outline: none;
+    border: 1px solid #7a7554;
+}
+
+.form_group input::placeholder{
+    color: #fff;
+}
+
+.form_group span{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.form_group span svg{
+    font-size: 24px;
+    color: #fff;
+}
+
+.form_main_wrap button{
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.5s;
+    padding: 7px;
+    width: 100%;
+    letter-spacing: 3px;    
+}
+
+.form_main_wrap button:hover{
+    letter-spacing: 4px;
+}
