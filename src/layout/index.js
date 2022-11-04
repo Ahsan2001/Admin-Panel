@@ -9,8 +9,8 @@ const Layout = (props) => {
     <>
       <Container fluid>
         <Row>
-          <Col xs={2} md={2} lg={2}> <Sidebar /></Col>
-          <Col xs={10} md={10} lg={10}>{props.children}</Col>
+          <Col xs={2} md={2} lg={2} className="px-0"> <Sidebar /></Col>
+          <Col xs={10} md={10} lg={10} className="px-0">{props.children}</Col>
         </Row>
       </Container>
     </>

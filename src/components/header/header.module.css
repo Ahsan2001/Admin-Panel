@@ -1,0 +1,14 @@
+.header_top_main_wrap{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.header_top_main_wrap  img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+}
+
+
+.header_top_main_wrap .accordion .accordion-button{
+    width: 30% !important;
+}
