@@ -9,6 +9,20 @@
 }
 
 
-.header_top_main_wrap .accordion .accordion-button{
-    width: 30% !important;
+
+
+.header_top_main_wrap{
+    width: 20%;
+    margin-left: auto;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed,
+.header_top_main_wrap button.accordion-button.collapsed {
+    padding: 5px !important;
+
+}
+
+.header_top_main_wrap button{
+    border: none;
+    outline: none;
 }
